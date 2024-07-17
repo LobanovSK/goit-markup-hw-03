@@ -145,10 +145,10 @@ a {
   overflow: hidden;
 }
 .list-section-two {
-  dispay: flex;
+  display: flex;
   gap: 24px;
 }
-.element1-section-two {
+.element-section-two {
   width: calc((100% - 72px) / 4);
 }
 .advantages-title {
@@ -212,6 +212,7 @@ a {
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -221,6 +222,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-studio {
   color: #f4f4fd;
@@ -229,4 +232,5 @@ a {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
